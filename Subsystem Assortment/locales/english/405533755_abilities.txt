@@ -1,0 +1,1 @@
+ABL_NOVA_BOMB_DESC: Dive into a target star and detonate the Nova Bomb, causing significant stellar damage and potentially initiating a solar nova.

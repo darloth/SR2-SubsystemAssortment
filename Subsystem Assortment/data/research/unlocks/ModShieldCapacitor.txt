@@ -1,0 +1,15 @@
+Technology: ModShieldCapacitor
+	Name: Shield Capacitor
+	Description: #R_SYS_SHIELDCAPACITOR_DESC
+	Class: Unlock
+
+	Point Cost: 600
+	Time Cost: 120
+
+	Icon: SupportCommand * #8a37ff
+	Color: #8a37ff
+
+	UnlockModule(ShieldCapacitor)
+
+	SkipOnUnlockedModule(ShieldCapacitor)
+	SecondaryEnergyCost(500)

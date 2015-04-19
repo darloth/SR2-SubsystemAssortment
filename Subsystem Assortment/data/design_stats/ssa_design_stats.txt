@@ -1,0 +1,14 @@
+SubsystemStat: NanoRepairAmount
+	Name: Nano-Repair Amount
+	Description: The amount of hp per second repaired by the nanocloud.
+	Icon: Plus
+	Color: #3caa00
+	Suffix: /s
+	Variable: NanoRepairAmount
+SubsystemStat: NanoRepairDuration
+	Name: Nano-Repair Duration
+	Description: The duration of the nanocloud.
+	Icon: SelectionCircle
+	Color: #3caa00
+	Suffix: s
+	Variable: NanoRepairDuration

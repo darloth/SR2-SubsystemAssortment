@@ -1,0 +1,11 @@
+
+Material: Superstructure
+	DepthTest: NoDepthTest
+	Alpha: True
+	Lighting: False
+	Texture: data/images/subsystems/superstructure.png
+Material: FieldEnclosure
+	DepthTest: NoDepthTest
+	Alpha: True
+	Lighting: False
+	Texture: data/images/subsystems/spacejacuzzi.png

@@ -1,0 +1,16 @@
+Technology: SysNovaBomb
+	Name: Nova Bomb
+	Description: #R_SYS_NOVA_BOMB_DESC
+	Class: Unlock
+
+	Point Cost: 2500
+	Time Cost: 120
+
+	Icon: TechIcons::58 *e45555
+	Color: #e45500
+	Blurb: Killer of stars
+
+	UnlockSubsystem(NovaBomb)
+	SkipOnUnlockedSubsystem(NovaBomb)
+
+	SecondaryEnergyCost(2000)

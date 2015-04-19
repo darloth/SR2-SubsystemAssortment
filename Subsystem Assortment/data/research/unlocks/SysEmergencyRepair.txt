@@ -1,0 +1,15 @@
+Technology: SysEmergencyRepair
+	Name: Emergency Nano-Repair Cloud
+	Description: #R_SYS_EMERGENCY_REPAIR_DESC
+	Class: Unlock
+
+	Point Cost: 600
+	Time Cost: 120
+
+	Icon: ComputerCore * #aaffaa
+	Color: #648f27
+
+	UnlockSubsystem(EmergencyRepair)
+	SkipOnUnlockedSubsystem(EmergencyRepair)
+
+	SecondaryEnergyCost(1000)

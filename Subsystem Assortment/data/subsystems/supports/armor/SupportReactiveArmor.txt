@@ -1,0 +1,31 @@
+Subsystem: SupportReactiveArmor
+	Name: #REACTIVEARMOR_NAME
+	Description: #REACTIVEARMOR_DESC
+	BaseColor: #b9a9a9
+	Elevation: 1
+
+	Tags: Category:Defense, FauxExterior
+	Tags: NoCore, NonContiguous, DefaultUnlock, Defense, IsArmor, BlockArmor, ExternalSpace
+	Hull: Support
+
+	Size := HexSize * Hexes
+	ImpactLevel := 28 * HexSize
+	MinPct := 1/6
+
+	Hex.Resistance := 0.4
+	Hex.HP := 30 * HexSize
+	Hex.Mass := 5.0 * HexSize
+
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+
+	Hex.LaborCost := 0.16 * max(0.25 + (HexSize * 0.5),HexSize)
+	Hex.BuildCost := 0.77 * max(0.25 + (HexSize * 0.5),HexSize)
+	Effect: CapDamage
+		MaxDamage = ImpactLevel
+		MinimumPercent = MinPct
+
+	Modifier: ImpactFactor(factor)
+		MinPct := MinPct / factor
+
+	Module: Default
+		Sprite: PlateArmor * #ff9999

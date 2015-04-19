@@ -1,0 +1,19 @@
+Subsystem: IntricateDesign
+	Name: Intricate Design
+	Description: #S_INTRICATE_DESIGN_DESC
+
+	Tags: Applied, Category:Hulls, NoCore, DefaultUnlock
+	Hull: Flagship
+	EvaluationOrder: -201
+	BaseColor: #32a3cc
+
+	AddShipModifier: FlagshipHull::HexLimitFactor(2.0)
+	AddShipModifier: FlagshipHull::GridWidthFactor(sqrt(1.5))
+	AddShipModifier: FlagshipHull::GridHeightFactor(sqrt(1.5))
+
+	AddShipModifier: LaborCostFactor(1.20)
+	AddShipModifier: ImpactLevelFactor(2.0)
+
+	Module: Default
+		Sprite: DesignationIcons::16
+		DrawMode: 3

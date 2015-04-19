@@ -1,0 +1,6 @@
+Status: NanoRepairCloud
+	Name: #S_NANO_REPAIR_CLOUD
+	Description: #S_NANO_REPAIR_CLOUD_DESC
+	Icon: ComputerCore * #aaffaa
+
+	ssa_status_effects::NanobotHealing()

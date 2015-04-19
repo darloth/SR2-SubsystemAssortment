@@ -1,0 +1,17 @@
+R_SYS_SHIELDDIFFUSER_DESC: <<
+	[color=#aaa][i]Unlocks the Shield Diffuser module.[/i][/color]
+
+	[img=Plus]Increases the rate of shield regeneration[/img]
+	[img=Minus]Decreases the total shield capacity[/img]
+
+	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 500 energy.[/color]
+>>
+R_SYS_SHIELDCAPACITOR_DESC: <<
+	[color=#aaa][i]Unlocks the Shield Capacitor module.[/i][/color]
+
+
+	[img=Plus]Increases the total shield capacity[/img]
+	[img=Minus]Decreases the rate of shield regeneration[/img]
+
+	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 500 energy.[/color]
+>>

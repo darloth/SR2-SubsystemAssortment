@@ -1,0 +1,18 @@
+	Name: Subsystem Assortment
+	Description: <<
+		An assortment of subsystems to provide variety and increase options. Suitable for all ages, comes in many delicious flavours. 
+
+		Currently contains (lots more than will display on this tooltip, btw): 
+		* Malleable field enclosure - Unlocked with shield tech, can be used to shield weapon mountings and other external cores.  Slightly less tough than plate armor (and does not benefit from armor tech) but requires power.
+		* Support plasma bomb weapon - essentially a very short range torpedo, you'll probably need to use support ship behaviours to get this into range. 
+		* Superstructure - for when you want a hex filled but not necessarily with heavy armour or expensive systems.
+		* Shield diffusers and capacitors - to adjust the balance of recharge rate or capacity, at a cost.
+		* Point defense arrays - very short range but very rapid fire railgun type weapons. Can't actually target missiles, but effective vs small support ships and shields.
+		* Reactive armor for supports - gets more expensive on small vessels and is possibly overpriced, but if your supports are dying this might help?
+		* Nova bomb - takes up most of a ship, only targets stars, and you lose the entire ship flying it into the sun, but oh what a big boom when the star pops.
+		* Intricate Design - if you need more hexes, you can have more hexes! It costs more labor though, and does NOT give you the extra protective capabilities of a titan.
+		* Emergency Repair Nanobots - Long cooldown, boosts repair per second (unaffected by being in combat) by a big chunk for 10+ seconds.  Costs a little empire energy but not as much as emergency supplies, repairs are usually free after all.
+		* Rocket pods for support ships - because you really wanted to tank your supplies, right?  Also includes general tweaks for rocket pod supply usage.
+
+		(Thumbnail is CC-By-3.0 by Lorc from game-icons.net until I have something more apt. You should check the site out, excellent icons!)
+	>>

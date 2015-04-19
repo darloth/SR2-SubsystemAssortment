@@ -1,0 +1,18 @@
+Ability: NovaBomb
+	Name: Nova Bomb
+	Description: #ABL_NOVA_BOMB_DESC
+	Icon: TechIcons::58 *e45555
+
+	Range: 250
+
+	Target: targ = Object
+	PlayParticles(SeedShipBoom, Scale = 1.66, Object Tied = False)
+	PlayParticles(ShipExplosionLong, Scale = 3.3, Object Tied = False)
+	NotifyAll("Warning - Nova Bomb detonation detected.", Description = "$1 has just detonated a Nova Bomb!", Icon = RailgunEmit)
+	EnergyCostFromSubsystem(ActivateEnergyCost)
+	Destroy()
+	TargetFilterType(targ, Type = Star)
+	TargetFilterAttackable(targ)
+	IsToggleTarget(targ, Range Margin = 1.5)
+	novabomb::DealInstantStellarDamage(targ, Sys.StellarDamage:7000000)
+	OffensiveToTarget(targ)

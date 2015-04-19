@@ -1,0 +1,1 @@
+ABL_EMERGENCY_REPAIR_NANOS_DESC: Deploy a cloud of nanobots to repair the fleet.

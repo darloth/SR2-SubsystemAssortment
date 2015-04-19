@@ -1,0 +1,10 @@
+Ability: EmergencyRepairNanos
+	Name: Emergency Repair Nanobots
+	Description: #ABL_EMERGENCY_REPAIR_NANOS_DESC
+	Icon: ComputerCore * #aaffaa
+
+	Energy Cost: 200
+	Cooldown: 120
+
+	EnergyCostFromSubsystem(EnergyCost)
+	ssa_ability_effects::EmergencyRepair(NanoRepairDuration)

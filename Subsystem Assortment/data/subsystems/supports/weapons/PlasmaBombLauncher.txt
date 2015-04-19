@@ -1,0 +1,64 @@
+Subsystem: PlasmaBombLauncher
+	Name: Plasma Bomb Launcher
+	Description: <<
+		Launches massive, semi-guided bombs at a nearby target. These bombs explode in an area around their target. This support varient of the torpedo system sacrifices almost all of the long range containment fields to fit a similar system into a support frame.
+
+		(You will need to use support behaviors to get this weapon into range, or drop your fleet right on top of the enemy)
+
+		[img=Plus]Extreme [b][color=#ff8080]damage[/color][/b].[/img]
+		[img=Plus]No firing arc limitations.[/img]
+		[img=Plus]Deals damage in an area.[/img]
+		[img=Minus][b]Extremely[/b] short [b][color=#80ffea]range[/color][/b].[/img]
+	>>
+	BaseColor: #7946f9
+	TypeColor: #7946f9
+	Picture: SubsystemButtonArt::4
+	Elevation: 2
+
+	Tags: WeaponBase, MissileBase, Category:Weapons, Rotatable
+	Tags: ExteriorCore, Weapon, DefaultUnlock, IsExplosiveWeapon, HasInternals, Homing
+	Hull: Support
+
+	Size := HexSize * Hexes
+	Range := Size + 100
+	Damage := Size * 12
+	Reload := 10.0
+	Speed := 80
+	Tracking := 1.1
+	Radius := max(4.0 + (log(Size) / log(2) * 6.0), 4.0)
+	SupplyCost := Size * 2.0
+	Hex.Mass := HexSize
+
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+
+	Hex.BuildCost := 0.8 * HexSize
+	Hex.LaborCost := 0.15 * HexSize
+	Modifier: AoERadiusFactor(Factor)
+		Radius := Radius * Factor
+
+	Requires:
+		Command = 1
+
+	Module: Default
+
+	Module: Core
+		Hex.HP := Hex.HP * 2
+		Hex.BuildCost := 5.0 * Hex.BuildCost
+		Hex.Mass := 5.0 * Hex.Mass
+
+		DrawMode: 1
+
+		Hex.DamageResist := ShipSize / 64.0
+		Sprite: TorpedoLauncher::0
+		Effect: DamageResist
+			Resist = Hex.DamageResist
+
+	Effector: Torpedo
+		Range = Range
+		Damage = Damage
+		Reload = Reload
+		Speed = Speed
+		Tracking = Tracking
+		Radius = Radius
+		SupplyCost = SupplyCost * Reload

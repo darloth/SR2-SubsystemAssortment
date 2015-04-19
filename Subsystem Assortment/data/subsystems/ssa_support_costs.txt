@@ -1,0 +1,5 @@
+Template: tag/SupportBaseCost
+	Defaults:
+		Hex.LaborCost := 0.07 * HexSize
+		Hex.BuildCost := 0.75 * HexSize
+

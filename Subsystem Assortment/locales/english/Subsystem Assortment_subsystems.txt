@@ -1,0 +1,29 @@
+S_INTRICATE_DESIGN_DESC: <<
+	Extra time and effort dedicated to the design phase allows for a more complicated ship blueprint, but following it to actually construct such a vessel will inevitably take longer.
+
+	[img=Plus]Internal space is half as large with twice the limit, allowing for more complex designs.[/img]
+	[img=Minus]This does not make the ship any tougher, and will tend to make it easier to destroy important modules like bridges and control cores.[/img]
+	[img=Minus]Increased labor cost due to longer prototyping phase.[/img]
+>>
+S_EMERGENCY_REPAIR_DESC: <<
+	A command and control node for a cloud of auto-repair nanobots.  These surround the fleet and repair damage over time but require a portion of the empire's energy to activate.
+
+	Max 1 per ship.
+
+	[img=AttributeIcons::2;22]Repairs the fleet over time.[/img]
+	[img=Minus]Costs a little energy to activate.[/img]
+	[img=Minus]120 Second Cooldown.[/img]
+	[img=Minus]Requires extra command to coordinate nanobots.[/img]
+>>
+FIELDENCLOSURE_NAME: Malleable Hard-Field Enclosure
+FIELDENCLOSURE_DESC: <<
+	A two-dimensional forcefield projected across a hole in the hull of the vessel.  It can let projectiles, energy or smaller vessels pass through in one or both directions as desired.
+
+	[img=Plus]High [b][color=#80ff80]health[/color][/b].[/img]
+	[img=Plus]Resists and reduces incoming damage.[/img]
+	[img=Plus]Enclosures on the outside of the ship do not use up interior space.[/img]
+	[img=Plus]Light.[/img]
+	[img=Plus]Does not block turrets or modules requiring external access.[/img]
+	[img=Minus]Costs power to run.[/img]
+	[img=Minus]Expensive.[/img]
+>>

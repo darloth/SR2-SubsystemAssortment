@@ -1,0 +1,2 @@
+S_NANO_REPAIR_CLOUD: Nano Repair Cloud
+S_NANO_REPAIR_CLOUD_DESC: A cloud of nanobots produced and directed by this flagship is currently repairing the fleet.

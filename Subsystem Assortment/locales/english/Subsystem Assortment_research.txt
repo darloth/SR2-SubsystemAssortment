@@ -1,0 +1,23 @@
+R_SYS_NOVA_BOMB_DESC: <<
+	[color=#aaa][i]Unlocks the Nova Bomb subsystem.[/i][/color]
+
+	[bbloc=#S_NOVA_BOMB_DESC/]
+
+	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 2000 energy.[/color]
+>>
+R_SYS_EMERGENCY_REPAIR_DESC: <<
+	[color=#aaa][i]Unlocks the Emergency Supplies subsystem.[/i][/color]
+
+	[bbloc=#S_EMERGENCY_REPAIR_DESC/]
+
+	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 1000 energy.[/color]
+>>
+R_EMPTY_DESC: [i]An empty science node, purely for mod compatibility.  Can never be researched.[/i]
+R_SYS_SHIELDGEN_DESC: <<
+	[color=#aaa][i]Unlocks the Shield Generator subsystem.[/i][/color]
+
+	[bbloc=#SHIELDGEN_DESC/]
+	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 750 energy.[/color]
+
+	[color=#aaa][i]Also unlocks the Field Enclosure subsystem, acting as one-way armor.[/i][/color]
+>>

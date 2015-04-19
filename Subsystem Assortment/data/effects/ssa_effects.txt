@@ -1,0 +1,6 @@
+Effect: WeakProjDamage
+	Value: Amount
+	Value: Pierce
+	Value: Suppression
+
+	End: dar_combat::WeakProjDamage

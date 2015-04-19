@@ -1,0 +1,15 @@
+Technology: ModShieldDiffuser
+	Name: Shield Diffuser
+	Description: #R_SYS_SHIELDDIFFUSER_DESC
+	Class: Unlock
+
+	Point Cost: 600
+	Time Cost: 120
+
+	Icon: SupportCommand * #007fff
+	Color: #007fff
+
+	UnlockModule(ShieldDiffuser)
+
+	SkipOnUnlockedModule(ShieldDiffuser)
+	SecondaryEnergyCost(500)
