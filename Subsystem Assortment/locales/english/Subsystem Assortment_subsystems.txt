@@ -27,3 +27,9 @@ FIELDENCLOSURE_DESC: <<
 	[img=Minus]Costs power to run.[/img]
 	[img=Minus]Expensive.[/img]
 >>
+S_SPECIALIST_DESIGN_DESC: <<
+	This designates a support design as a specialist design, preventing it from being automatically built as a defense ship.
+
+	[img=Plus]Won't be automatically built as a defense ship.[/img]
+	[img=Minus]Won't be automatically built as a defense ship.[/img]
+>>

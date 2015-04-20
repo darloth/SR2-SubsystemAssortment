@@ -1,0 +1,14 @@
+Subsystem: SpecialistDesign
+	Name: Specialist Design
+	Description: #S_SPECIALIST_DESIGN_DESC
+
+	Tags: Applied, Category:Hulls, NoCore, DefaultUnlock, HasMaintenanceCost
+	Hull: Support
+	EvaluationOrder: -201
+	BaseColor: #32a3cc
+
+
+
+	Module: Default
+		Sprite: DesignationIcons::16
+		DrawMode: 3
