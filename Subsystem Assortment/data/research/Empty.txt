@@ -2,14 +2,3 @@ Technology: Empty
 	Name: Empty
 	Description: #R_EMPTY_DESC
 	Color: #aaaaaa
-Technology: EmptyRemover
-	Default Unlock: True
-	Name: Empty Remover
-	Blurb: <<
-		Should remove all empty nodes, and itself. You should never see this.
-
-		If you are seeing this, nothing to see here, please move along.
-	>>
-	ResetWhenUnlocked()
-	RemoveTechnologyNodes(EmptyRemover)
-	RemoveTechnologyNodes(Empty)

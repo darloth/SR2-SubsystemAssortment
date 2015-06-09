@@ -16,8 +16,8 @@ R_EMPTY_DESC: [i]An empty science node, purely for mod compatibility.  Can never
 R_SYS_SHIELDGEN_DESC: <<
 	[color=#aaa][i]Unlocks the Shield Generator subsystem.[/i][/color]
 
+	[color=#aaa][i]Also unlocks the Field Enclosure subsystem, acting as one-way armor.[/i][/color]
+
 	[bbloc=#SHIELDGEN_DESC/]
 	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 750 energy.[/color]
-
-	[color=#aaa][i]Also unlocks the Field Enclosure subsystem, acting as one-way armor.[/i][/color]
 >>

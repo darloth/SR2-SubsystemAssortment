@@ -1,11 +1,6 @@
 Grid: Base
-	DevEnergyIncome: -8,1
-	Empty: -7,2
-	ModShieldDiffuser: -7,7
-	SysNovaBomb: 3,7
-	SysEmergencyRepair: 1,-7
-	DevFTL: 1,-10
-	SysEmergencyRepair: -4,8
-	ModShieldCapacitor: -7,3
-	
-	EmptyRemover: -64,64
+	ModShieldCapacitor: 7,0
+	ModShieldDiffuser: 7,-2
+	SysEmergencyRepair: 3,8
+	ImpAoE: 7,-10
+	SysNovaBomb: 7,-11
