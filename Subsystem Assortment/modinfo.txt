@@ -16,3 +16,4 @@
 
 		(Thumbnail is CC-By-3.0 by Lorc from game-icons.net until I have something more apt. You should check the site out, excellent icons!)
 	>>
+	Compatibility: 200

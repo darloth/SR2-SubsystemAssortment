@@ -4,7 +4,7 @@ Subsystem: FieldEnclosure
 	BaseColor: #a9a9a9
 
 	Tags: BaseCost, Category:Defense, NoWall, NoFloor, PassExterior, Ephemeral
-	Tags: NoCore, NonContiguous, Defense, ExternalSpace
+	Tags: NoCore, NonContiguous, Defense, ExternalSpace, SecondaryArmor
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes

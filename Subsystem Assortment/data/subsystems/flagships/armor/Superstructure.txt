@@ -12,7 +12,7 @@ Subsystem: Superstructure
 	BaseColor: #a9a9a9
 
 	Tags: Category:Defense, NoWall, FauxExterior
-	Tags: NoCore, NonContiguous, DefaultUnlock, Defense, IsArmor, TankArmor, ExternalSpace
+	Tags: NoCore, NonContiguous, DefaultUnlock, Defense, IsArmor, TankArmor, ExternalSpace, SecondaryArmor
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
